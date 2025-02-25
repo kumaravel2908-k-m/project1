@@ -27,7 +27,6 @@ public class LoginProgram {
         scanner.close();
     }
     
-    // Method to authenticate user
     public static boolean authenticate(String username, String password) {
         return username.equals(correctUsername) && password.equals(correctPassword);
     }
